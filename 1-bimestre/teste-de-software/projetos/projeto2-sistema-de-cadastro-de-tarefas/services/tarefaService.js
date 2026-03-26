@@ -1,4 +1,4 @@
-const { totalTarefas, listarTarefas } = require('../database/tarefaDatabase')
+const { adicionarTarefa, listarTarefas } = require('../database/tarefaDatabase')
 
 function cadastrarTarefa(descricao){
     if(!descricao) {

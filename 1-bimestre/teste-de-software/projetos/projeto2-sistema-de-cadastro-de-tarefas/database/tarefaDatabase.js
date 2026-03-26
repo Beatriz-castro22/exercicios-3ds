@@ -1,6 +1,6 @@
 let tarefas = []
 
-function totalTarefas(tarefa){
+function adicionarTarefa(tarefa){
     tarefas.push(tarefa)
 }
 
@@ -13,7 +13,7 @@ function limparBanco(){
 }
 
 module.exports = {
-    totalTarefas,
+    adicionarTarefa,
     listarTarefas,
     limparBanco
 }
